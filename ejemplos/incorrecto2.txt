@@ -1,0 +1,3 @@
+variar x desde 1 hasta 5 hacer {
+    escribir x % 2  // Error: operador % no está definido en la gramática
+} fin_variar 

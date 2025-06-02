@@ -1,0 +1,3 @@
+variar i desde 1 hasta 5 hacer {
+    escribir i
+} fin_variar 

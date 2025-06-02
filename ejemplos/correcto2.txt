@@ -1,0 +1,5 @@
+variar x desde 1 hasta 3 hacer {
+    variar y desde 1 hasta 3 hacer {
+        escribir x * y
+    } fin_variar
+} fin_variar 
