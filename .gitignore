@@ -1,7 +1,13 @@
 # Dependencies
 node_modules/
 
-# Generated files
+# Generated ANTLR files
+*.interp
+*.tokens
+LoopLang*.js
+!CustomLoopLangVisitor.js
+
+# Keep only specific JS files
 *.js
 !index.js
 !jest.config.js
@@ -37,4 +43,8 @@ pids
 
 # Windows
 Thumbs.db
-Desktop.ini 
+Desktop.ini
+
+# Binary files
+*.jar
+!tools/*.jar 
