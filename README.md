@@ -37,7 +37,7 @@ looplang-antlr/
 
 3. Genera el parser (requiere Java):
    ```bash
-   java -jar antlr-4.13.1-complete.jar -Dlanguage=JavaScript -visitor grammar/LoopLang.g4
+   java -jar antlr-4.13.2-complete.jar -Dlanguage=JavaScript -visitor grammar/LoopLang.g4
    ```
 
 ## Uso
