@@ -1,8 +1,8 @@
 import antlr4 from 'antlr4';
 import fs from 'fs';
-import LoopLangLexer from './grammar/LoopLangLexer.js';
-import LoopLangParser from './grammar/LoopLangParser.js';
-import LoopLangVisitor from './grammar/LoopLangVisitor.js';
+import LoopLangLexer from './LoopLangLexer.js';
+import LoopLangParser from './LoopLangParser.js';
+import LoopLangVisitor from './LoopLangVisitor.js';
 
 class LoopLangInterpreter extends LoopLangVisitor {
     constructor() {
